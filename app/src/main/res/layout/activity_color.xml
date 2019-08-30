@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.surya.colormixer.Color">
+
+
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RED"
+            android:layout_gravity="center_vertical"
+            android:textSize="30sp"
+            android:padding="10sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:onClick="increase"
+                android:id="@+id/redplus"
+                android:layout_width="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="30dp"
+                android:text="+"
+                />
+            <TextView
+                android:id="@+id/rededi"
+                android:layout_gravity="center_vertical"
+                android:layout_width="70dp"
+                android:hint="122"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:paddingTop="20dp"
+                android:layout_height="70dp"
+                android:background="@drawable/redbox"/>
+            <Button
+                android:onClick="decrease"
+                android:id="@+id/redminus"
+                android:layout_width="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="30dp"
+                android:text="-"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GREEN"
+            android:layout_gravity="center_vertical"
+            android:textSize="30sp"
+            android:padding="10sp"/>
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/greenplus"
+                android:layout_width="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="30dp"
+                android:text="+"
+                />
+            <TextView
+                android:id="@+id/greenedi"
+                android:layout_gravity="center_vertical"
+                android:layout_width="70dp"
+                android:text="0"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:paddingTop="20dp"
+                android:layout_height="70dp"
+                android:background="@drawable/editboxback"/>
+            <Button
+                android:id="@+id/greenminus"
+                android:layout_width="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="30dp"
+                android:text="-"
+                />
+            </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLUE"
+            android:layout_gravity="center_vertical"
+            android:textSize="30sp"
+            android:padding="10sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/blueplus"
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="30dp"
+                    android:text="+"
+                    />
+                <TextView
+                    android:id="@+id/blueedi"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="70dp"
+                    android:text="0"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:paddingTop="20dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bluebox"/>
+                <Button
+                    android:id="@+id/blueminus"
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="30dp"
+                    android:text="-"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+
+    <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textresult"
+        android:text="Result"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        />
+    <ImageButton
+        android:layout_marginTop="40dp"
+        android:id="@+id/equalB"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="="/>
+    <Button
+        android:layout_width="80dp"
+        android:id="@+id/booo"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+
